@@ -1,0 +1,227 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.top-bar {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.top-bar span {
+    margin: 0 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.client-area button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero ul {
+    text-align: left; /* Align the entire list to the left */
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove padding from the list */
+    margin: 0; /* Remove margin from the list */
+}
+
+.hero ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.hero ul li::before {
+    content: '✔'; /* The tick mark */
+    color: #007bff; /* Blue color for the tick */
+    margin-right: 10px; /* Space between the tick and the text */
+    font-weight: bold; /* Makes the tick bold */
+    flex-shrink: 0; /* Prevents the tick from shrinking */
+}
+
+.pricing {
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.get-started {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.hero img {
+    width: 500px;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+
+.hero .caption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat-item img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.plans {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.plans h2 {
+    color: #007bff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.plans h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Pricing Plans Section */
+.pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.plan {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.plan .price {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.highlighted {
+    border: 2px solid #ffa500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
